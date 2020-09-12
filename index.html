@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peter Knight</title>
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+	  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+	  <style type="text/css">
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+  width:210mm;
+  margin: 0 auto;
+  height: 297mm;
+}
+.head-text{
+	text-align: center;
+	font-size: 30px;
+}
+.head-pera{
+	text-align: center;
+}
+.bar{
+	height: 1px;
+	background-color: #C8C8C8;
+}
+.resume-summary{
+	width: 100%;
+	margin: 0 auto;
+	text-align: justify;
+}
+.resume-summary-left{
+width: 22%;
+float: left;
+position: relative;
+text-align: center;
+}
+.resume-summary-right{
+width: 75%;
+position: relative;
+float: left;
+border-left: 2px solid #FACD48;
+padding-left: 20px;
+}
+.resume-summary-left:before{
+	content: "";
+     width: 18px;
+     height: 18px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -71px;
+     right: -10px; 
+}
+.resume-summary-right:before{
+	content: "";
+     width: 18px;
+     height: 18px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: 146px;
+     right: 608px; 
+}
+.work-experience{
+	width: 100%;
+	margin: 0 auto;
+	text-align: justify;
+	margin-top: -6px;
+}
+.work-experience-left{
+width: 22%;
+float: left;
+position: relative;
+text-align: center;
+}
+.work-experience-right{
+width: 75%;
+position: relative;
+float: left;
+border-left: 2px solid #FACD48;
+padding-left: 20px;
+}
+.work-experience-left:before{
+	content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #FBD462;
+    position: absolute;
+    bottom: 47px;
+    right: -7px;
+}
+.work-experience-right:before{
+	content: "";
+     width: 18px;
+     height: 18px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -10px;
+     right: 608px; 
+}
+.education-left{
+width: 22%;
+float: left;
+position: relative;
+text-align: center;
+}
+.education-right{
+width: 75%;
+position: relative;
+float: left;
+border-left: 2px solid #FACD48;
+padding-left: 20px;
+}
+.health-text{
+position: relative;
+}
+.health-text:before{
+	content: "";
+     width: 12px;
+     height: 12px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: 5px;
+     right: 611px; 
+}
+.training{
+	position: relative;
+}
+.training:before{
+	content: "";
+     width: 12px;
+     height: 12px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: 5px;
+     right: 611px; 
+}
+.skill-left{
+width: 22%;
+float: left;
+position: relative;
+text-align: center;
+}
+.skill-right{
+width: 75%;
+position: relative;
+float: left;
+border-left: 2px solid #FACD48;
+padding-left: 20px;
+}
+.skill-right:after{
+	content: "";
+     width: 18px;
+     height: 18px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -11px;
+     right: 608px; 
+}
+.skill-left:after{
+	content: "";
+     width: 18px;
+     height: 18px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: 55px;
+     left: 166px; 
+}
+.soft{
+	position: relative;
+	margin-bottom: auto;
+}
+.soft:before{
+	content: "";
+     width: 12px;
+     height: 12px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: 2px;
+     left: -27px; 
+}
+
+.skill-up{
+	width: 100%;
+	float: left;
+
+}
+.skill-1{
+	width: 30%;
+	float: left;
+}
+.skill-2{
+	width: 30%;
+	float: left;
+}
+.skill-3{
+	width: 30%;
+	float: left;
+}
+.mo{
+	height: 4px;
+    background-color: black;
+    width: 80%;
+    margin-left: 0px;
+    
+}
+.mo-text{
+	position: relative;
+}
+.mo-text:before{
+	content: "";
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -29px;
+     left: 147px; 
+}
+.ap-text{
+	position: relative;
+}
+.ap-text:before{
+	content: "";
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -29px;
+     left: 147px; 
+}
+.ai-text{
+	position: relative;
+}
+.ai-text:before{
+	content: "";
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -29px;
+     left: 147px; 
+}
+.ai{
+	
+	height: 4px;
+    background-color: black;
+    width: 80%;
+    margin-left: 0px;
+    position: relative;
+    
+}
+.ai-2{
+	position: absolute;
+    height: 1px;
+    top: 80px;
+    width: 45px;
+    background-color: gray;
+    right: 31px;
+}
+.aid{
+	height: 4px;
+    background-color: black;
+    width: 50%;
+    margin-left: 0px;
+    position: relative;
+}
+.aid-text{
+	position: relative;
+}
+.aid-text:before{
+	content: "";
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -29px;
+     left: 93px; 
+}
+.aid-2{
+	position: absolute;
+    width: 55px;
+    bottom: 1px;
+    left: 126px;
+    height: 1px;
+    background-color: gray;
+}
+.qb{
+	height: 4px;
+    background-color: black;
+    width: 50%;
+    margin-left: 0px;
+    position: relative;
+}
+.qb-text{
+	position: relative;
+}
+.qb-text:before{
+	content: "";
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -29px;
+     left: 93px; 
+}
+.qb-2{
+	position: absolute;
+    width: 55px;
+    bottom: 1px;
+    left: 305px;
+    height: 1px;
+    background-color: gray;
+}
+.xer{
+	height: 4px;
+    background-color: black;
+    width: 50%;
+    margin-left: 0px;
+    position: relative;
+}
+.xer-text{
+	position: relative;
+}
+.xer-text:before{
+	content: "";
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+     bottom: -29px;
+     left: 93px; 
+}
+.xer-2{
+	position: absolute;
+    width: 108px;
+    bottom: 1px;
+    left: 485px;
+    height: 1px;
+    background-color: gray;
+}
+
+.language{
+	width: 100%;
+	margin: 0 auto;
+	text-align: justify;
+	margin-top: -5px;
+}
+.language-left{
+width: 22%;
+float: left;
+position: relative;
+text-align: center;
+}
+.language-right{
+width: 75%;
+position: relative;
+float: left;
+border-left: 2px solid #FACD48;
+padding-left: 20px;
+}
+
+.language-sec{
+	width: 100%;
+	float: left;
+
+}
+.language-1{
+	width: 30%;
+	float: left;
+}
+.language-2{
+	width: 30%;
+	float: left;
+}
+.language-3{
+	width: 30%;
+	float: left;
+}
+
+.circle-2 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+
+.circle-border-2 {
+  position: relative;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  margin-left: 30%;
+  border-radius: 100%;
+  background-color: #fbd462;
+  background-image: linear-gradient(162deg, transparent 100%, #f0f0f0 100%), linear-gradient(90deg, #f0f0f0 -100%, transparent 0%);
+}
+
+.circle {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+
+.circle-border {
+  position: relative;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  margin-left: 30%;
+  border-radius: 100%;
+  background-color: #E53B3B;
+ background: linear-gradient(270deg, #facd48 50%, transparent 50%), linear-gradient(0deg, #fbd462 50%, black 50%);
+}
+
+.circle-1 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+
+.circle-border-1{
+  position: relative;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  margin-left: 30%;
+  border-radius: 100%;
+  background-color: #E53B3B;
+background: linear-gradient(40deg, #000000 50%,transparent 50%), linear-gradient(to left, #fbd462 50%,transparent 0), #000000;
+}
+.eng{
+	margin-left: 86px;
+}
+.eng-text{
+    font-size: 35px;
+    padding-top: 30px;
+}
+.spanish{
+margin-left: 86px;
+}
+.spanish-text{
+	font-size: 35px;
+	padding-top: 29px;
+
+}
+.slovak{
+margin-left: 85px;
+}
+.slovak-text{
+font-size: 35px;
+    padding-top: 28px;
+}
+
+
+.strength{
+	width: 100%;
+	margin: 0 auto;
+	text-align: justify;
+	margin-top: -5px;
+}
+.strength-left{
+width: 22%;
+float: left;
+position: relative;
+text-align: center;
+margin-bottom: 65px;
+}
+.strength-right{
+width: 75%;
+position: relative;
+float: left;
+border-left: 2px solid #FACD48;
+padding-left: 20px;
+}
+
+.strength-sec{
+	width: 100%;
+	float: left;
+
+}
+.strength-1{
+	width: 24%;
+	float: left;
+}
+.strength-2{
+	width: 28%;
+	float: left;
+}
+.strength-3{
+	width: 22%;
+	float: left;
+}
+.strength-4{
+	width: 22%;
+	float: left;
+}
+.strength-left:before{
+	content: "";
+     width: 18px;
+     height: 18px;
+     border-radius: 100%;
+     background-color:#FBD462;
+     position: absolute;
+    bottom: 57px;
+    left: 166px; 
+
+}
+.ql-bar{
+	background-color: #FBD462;
+    height: 1px;
+    border: 1px solid #FBD462;
+    margin-top: -13px;
+    width: 122px;
+    margin-left: 0px;
+}
+
+.dt-bar{
+	background-color: #FBD462;
+    height: 1px;
+    border: 1px solid #FBD462;
+    margin-top: -13px;
+    width: 137px;
+    margin-left: 0px;
+}
+
+.rl-bar{
+	background-color: #FBD462;
+    height: 1px;
+    border: 1px solid #FBD462;
+    margin-top: -13px;
+    width: 78px;
+    margin-left: 0px;
+}
+
+.pr-bar{
+	background-color: #FBD462;
+    height: 1px;
+    border: 1px solid #FBD462;
+    margin-top: -13px;
+    width: 82px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  </style>
+</head>
+
+
+<body>
+
+<div class="container">
+	<div class="head-text">
+		<h3 style="color:gray;"><span style="font-size: 45px;font-weight: normal;">[ </span>  &nbsp <span style="color: black;">Peter Knight</span> &nbsp <span style="font-size: 45px;font-weight: normal;">]</span></h3>
+	</div>
+	<div class="head-pera">
+		<p ><b>Date of birth: </b> <span style="color:gray;">03/27/1980</span> &nbsp<b>Nationality: </b> <span style="color:gray;" > Scotish</span> &nbsp <b>Address: </b> <span style="color:gray;">1600 Parkway,95043 Cupertino,USA </span></p>
+		<p style="margin-bottom: 50px; margin-top: -13px;"><b>Email Address: </b><span style="color:gray;">hello@kickresume.com </span> &nbsp <b>Web: </b><span style="color:gray;">www.kickresume.com</span></p>
+	</div>
+
+   <hr class="bar">
+
+
+   <div class="resume-summary">
+
+   	<div class="resume-summary-left">
+   		<h3>RESUME SUMMARY</h3>
+   	</div>
+
+   	<div class="resume-summary-right">
+   		<p style="color:gray;">Detail-oriented and result-driven Construction Administrator with a proven track record of finishing all projects within schedule and budget.Experienced in analyzing construction costs purchasing construction supplies, and completing construction plans.The Employee of the Month Award winner with a strong attention to accuracy and great analytical skill.  </p>
+   	</div>
+
+   </div>
+
+    <hr class="bar">
+
+     <div class="work-experience">
+
+   	<div class=" work-experience-left">
+   		<h3>WORK EXPERIENCE</h3>
+   	</div>
+
+   	<div class=" work-experience-right">
+   		<h3>New Home Counselor</h3>
+   		<h3 style="margin-top: -16px;">Carolina one</h3>
+   		<p style="color:gray;    margin-top: -16px;">06/2013 - present &nbsp MOUNT PLEASANT</p>
+   		<ul style="color:gray;margin-left: -19px;margin-top: -12px;">
+   			<li>Worked on multiple construction projects simultaneously and comunicated and worked closely with suppliers and business partners.</li>
+   			<li>Review and analyze construction costs to identify potential areas for improvements and produced and evaluated detailed construction plans. </li>
+   			<li>Ordered construction supplies, organized and maintained relevant documents and records and performed various clerical tasks are required. </li>
+   		</ul>
+
+
+   		<h3 class="training">Training Assistant</h3>
+   		<h3 style="margin-top: -16px;">Law Enforcement Training Center</h3>
+   		<p style="color:gray;    margin-top: -16px;">01/2012 - 03/2013  &nbsp CHARLESTON</p>
+   		<ul style="color:gray;margin-left: -19px;margin-top: -12px;">
+   			<li>Pro-actively participated in weekly team meetings with the Borad of Directors and informed them about the progress of the assigned projects.</li>
+   			<li>Awarded Employee of the Month for completing all assigned projects within schedule and in a timely manner.</li>
+   		</ul>
+   	</div>
+
+   </div>
+
+
+    <hr class="bar">
+
+     <div class="work-experience">
+
+   	<div class=" education-left">
+   		<h3>EDUCATION</h3>
+   	</div>
+
+   	<div class=" education-right">
+   		<h3 class="health-text">Health Science</h3>
+   		<h3 style="margin-top: -16px;">Clemson University</h3>
+   		<p style="color:gray;margin-top: -15px;">08/2006 - 05/2010 &nbsp UNITED STATES</p>
+   		<p style="color:gray;margin-top: -15px;">GPA:3.98 (Top 7% of th Program)</p>
+   		<p style="color:gray;margin-top: -15px;">The 2014 Academic Excellence Award Winner</p>
+
+
+   		
+   	</div>
+
+   </div>
+
+   <hr class="bar">
+
+  <div class="work-experience">
+
+   	<div class=" skill-left">
+   		<h3>SKILLS</h3>
+   	</div>
+
+   	<div class=" skill-right">
+   		<h5 class="soft" style="    margin-bottom: -13px;">- SOFTWARE</h5>
+
+   		<div class="skill-up">
+   			<div class="skill-1">
+
+   				<h4 class="mo-text" style="color:gray;">Microsoft Office</h4>
+   				<hr class="mo">
+   			</div>
+   			<div class="skill-2">
+
+   				<h4 class="ap-text" style="color:gray;">Adobe Photoshop</h4>
+   				<hr class="mo">
+   			</div>
+   			<div class="skill-3">
+
+   				<h4 class="ai-text" style="color:gray;">Adobe Illustretor</h4>
+   				<hr class="ai"> <hr class="ai-2">
+   			</div>
+   			
+   		</div>
+
+   		<div class="skill-up">
+   			<div class="skill-1">
+
+   				<h4 class="aid-text" style="color:gray;">Adobe InDesign</h4>
+   				<hr class="aid"> <hr class="aid-2">
+   			</div>
+   			<div class="skill-2">
+
+   				<h4 class="qb-text" style="color:gray;">Quick Books</h4>
+   				<hr class="qb"> <hr class="qb-2">
+   			</div>
+   			<div class="skill-3">
+
+   				<h4 class="xer-text" style="color:gray;">Xero</h4>
+   				<hr class="xer"> <hr class="xer-2">
+   			</div>
+   			
+   		</div>
+   		
+
+
+   		
+   	</div>
+
+   </div>
+
+   <hr class="bar">
+
+     <div class="language">
+
+   	<div class="language-left">
+   		<h3>Languages</h3>
+   	</div>
+
+   	<div class="language-right">
+
+   		<div class="language-sec">
+   			<div class="language-1">
+             
+            <div class="circle-border-2">
+  <div class="circle-2">
+  	<p class="eng-text">100%</p>
+  </div>
+</div>
+             <h4 class="eng" style="color:gray;">English</h4>
+   				
+   			</div>
+   			<div class="language-2">
+
+   				<div class="circle-border">
+  <div class="circle">
+  	<p class="spanish-text">70%</p>
+  </div>
+</div>
+  <h4 class="spanish" style="color:gray;">Spanish</h4>
+   				
+   			</div>
+   			<div class="language-3">
+
+   					<div class="circle-border-1">
+  <div class="circle-1">
+  	<p class="slovak-text">40%</p>
+  </div>
+</div>
+
+   				
+  <h4 class="slovak" style="color:gray;">Slovak</h4>
+   			
+   			</div>
+   			
+   		</div>
+
+
+
+   	</div>
+
+   </div>
+   <hr class="bar">
+
+   <div class="strength">
+
+   	<div class="strength-left">
+   		<h3>STRENGTHS</h3>
+
+   	</div>
+
+   	<div class="strength-right">
+
+   		<div class="strength-sec">
+
+   			<div class="strength-1">
+             
+             <p style="color:gray;">Quick Learning</p>
+             <hr class="ql-bar">
+          
+   			</div>
+
+   			<div class="strength-2">
+
+   				<p style="color:gray;">Delegeting tasks</p>
+   				 <hr class="dt-bar">
+   				
+   			</div>
+
+   			<div class="strength-3">
+
+   					<p style="color:gray;">Reliability</p>
+   					 <hr class="rl-bar">
+   			
+   			</div>
+
+   				<div class="strength-4">
+
+   					<p style="color:gray;">Precission</p>
+   					 <hr class="pr-bar">
+   			
+   			</div>
+   			
+
+   			
+   		</div>
+
+
+
+   	</div>
+
+   </div>
+
+
+
+
+
+
+
+	
+</div>
+
+
+
+
+
+</body>
+
+
+</html>
